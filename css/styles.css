@@ -25,6 +25,10 @@
 
 * { box-sizing: border-box; }
 
+/* Атрибут hidden всегда должен скрывать элемент,
+   даже если у элемента задан display (модалка, кнопки калькулятора и т.п.) */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 
 body {
