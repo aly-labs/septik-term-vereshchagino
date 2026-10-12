@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /leads.jsonl
 Disallow: /api/
-Sitemap: https://example.ru/sitemap.xml
+Sitemap: https://aly-labs.github.io/septik-term-vereshchagino/sitemap.xml
