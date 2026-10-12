@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+  <title>Септик ТЕРМИТ</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7efe9"/>
+      <stop offset="1" stop-color="#d7e2d6"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d5545"/>
+      <stop offset="1" stop-color="#123D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="180" rx="16" fill="url(#bg)"/>
+  <path d="M40 52 v54 q0 4 4 4 h152 q4 0 4-4 V52 q0-4-4-4 H44 q-4 0-4 4z" fill="#8aa24f"/>
+  <rect x="66" y="40" width="108" height="112" rx="14" fill="url(#body)" stroke="#0d2e26" stroke-width="2"/>
+  <rect x="86" y="30" width="56" height="14" rx="7" fill="#B7D94B" stroke="#123D32" stroke-width="2"/>
+  <path d="M90 78 h60 M90 102 h60 M90 126 h38" stroke="#8aa24f" stroke-width="6" opacity=".7" stroke-linecap="round"/>
+</svg>

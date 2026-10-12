@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /leads.jsonl
+Disallow: /api/
+Sitemap: https://example.ru/sitemap.xml

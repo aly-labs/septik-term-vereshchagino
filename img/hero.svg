@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-labelledby="t d">
+  <title id="t">Септик ТЕРМИТ, установленный на загородном участке</title>
+  <desc id="d">Иллюстрация участка с домом и смонтированным септиком в разрезе</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff0d8"/>
+      <stop offset="1" stop-color="#f5f7f2"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa24f"/>
+      <stop offset=".45" stop-color="#123D32"/>
+      <stop offset="1" stop-color="#0d2e26"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d5545"/>
+      <stop offset="1" stop-color="#123D32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- небо -->
+  <rect width="640" height="520" rx="24" fill="url(#sky)"/>
+
+  <!-- солнце -->
+  <circle cx="520" cy="92" r="42" fill="#e7efb0" opacity=".9"/>
+
+  <!-- трава -->
+  <path d="M0 360 H640 V400 Q600 380 560 400 Q520 380 480 400 Q440 380 400 400 Q360 380 320 400 Q280 380 240 400 Q200 380 160 400 Q120 380 80 400 Q40 380 0 400 Z" fill="#cbe39a"/>
+  <rect y="400" width="640" height="120" fill="url(#ground)"/>
+
+  <!-- земляной разрез над септиком -->
+  <path d="M210 400 v-70 q20-16 44 0 v70 z" fill="#a9c97a" opacity=".55"/>
+
+  <!-- дом -->
+  <g>
+    <rect x="430" y="260" width="150" height="115" rx="4" fill="#ffffff" stroke="#123D32" stroke-width="3"/>
+    <path d="M420 268 505 196l90 72" fill="#B7D94B" stroke="#123D32" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="492" y="300" width="30" height="75" rx="2" fill="#123D32"/>
+    <rect x="448" y="300" width="26" height="26" rx="2" fill="#eaf3ff" stroke="#123D32" stroke-width="2"/>
+    <rect x="538" y="300" width="26" height="26" rx="2" fill="#eaf3ff" stroke="#123D32" stroke-width="2"/>
+    <path d="M448 262 h92 v-8 q-46-14-92 0 z" fill="#0d2e26"/>
+  </g>
+
+  <!-- ёлка-кустик -->
+  <circle cx="407" cy="355" r="26" fill="#6f8f3f"/>
+  <circle cx="296" cy="358" r="18" fill="#7fa04a"/>
+
+  <!-- септик в разрезе -->
+  <g>
+    <!-- котлован -->
+    <rect x="150" y="250" width="200" height="150" rx="14" fill="#1c4a3c" stroke="#0d2e26" stroke-width="2"/>
+    <path d="M150 250 h200 v14 q-100-12-200 0 z" fill="#a9c97a"/>
+    <!-- ёмкость -->
+    <rect x="166" y="262" width="168" height="126" rx="16" fill="url(#tank)" stroke="#0d2e26" stroke-width="2.5"/>
+    <!-- перегородки -->
+    <path d="M218 262 v126 M284 262 v126" stroke="#0d2e26" stroke-width="2" stroke-dasharray="1 0"/>
+    <!-- уровень воды -->
+    <path d="M176 300 h148 M176 330 h148" stroke="#9ad0e8" stroke-width="6" opacity=".55" stroke-linecap="round"/>
+    <!-- крышка-люк -->
+    <rect x="215" y="238" width="86" height="18" rx="9" fill="#B7D94B" stroke="#123D32" stroke-width="3"/>
+  </g>
+
+  <!-- подводящая труба от дома -->
+  <g>
+    <path d="M430 330 q-70 0-100 18" fill="none" stroke="#123D32" stroke-width="7" stroke-linecap="round"/>
+    <path d="M430 330 q-70 0-100 18" fill="none" stroke="#B7D94B" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 8"/>
+  </g>
+</svg>

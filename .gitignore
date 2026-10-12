@@ -1,0 +1,14 @@
+# Заявки и служебные данные (не публикуем)
+leads.jsonl
+
+# Python
+__pycache__/
+*.pyc
+
+# Временные копии для проверок
+gh-test/
+
+# Системное
+.DS_Store
+Thumbs.db
+desktop.ini
