@@ -1,5 +1,8 @@
 # Заявки и служебные данные (не публикуем)
 leads.jsonl
+Заявки.xlsx
+leads.csv
+yadisk_token.txt
 
 # Python
 __pycache__/
